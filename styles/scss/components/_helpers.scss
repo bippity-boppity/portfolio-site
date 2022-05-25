@@ -1,0 +1,47 @@
+// Helper classes
+
+.window {
+    @extend .shadow;
+    border-radius: 10px;
+    min-height: 100px;
+    background-color: #050505;
+
+    .window-bar {
+        @extend .d-flex;
+        @extend .align-items-center;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: #dde1e4;
+        width: 100%;
+        height: 30px;
+
+        .window-close, .window-min, .window-max {
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            margin-right: 6px;
+
+        }
+
+        .window-close {
+            background: #FF6057;
+            border: 1px solid #E14640;
+        }
+        
+        .window-min {
+            background: #FFBD2E;
+            border: 1px solid #DFA123;
+        }
+        
+        .window-max {
+            background: #27C93F;
+            border: 1px solid #1DAD2B;
+        }
+    }
+
+    .window-content {
+        @extend .p-3;
+    }
+}

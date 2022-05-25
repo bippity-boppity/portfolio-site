@@ -1,0 +1,16 @@
+/**** Main Styles ****/
+
+// Custom Variables
+@import "_variables";
+
+// Bootstrap Source Files
+@import "../../packages/bootstrap-5.1.0/scss/bootstrap";
+
+// Custom Styles
+@import "components/buttons";
+@import "components/layout";
+@import "components/navigation";
+@import "components/type";
+@import "components/helpers";
+@import "components/backgrounds";
+@import "components/animations";

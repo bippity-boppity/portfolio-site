@@ -1,0 +1,68 @@
+// Backgrounds
+
+.bg-primary-slant {
+    position: relative;
+    background-color: $primary;
+    -webkit-clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    clip-path: polygon(0 0, 100% 5%, 100% 95%, 0 100%);
+    z-index: -2;
+}
+
+.shape {
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    z-index: -1;
+    opacity: 0.8;
+    transform: scale(200%);
+    display: none;
+}
+
+.shape-1 {
+    clip-path: polygon(20% 0%, 0% 20%, 13% 51%, 0% 80%, 20% 100%, 49% 80%, 80% 100%, 100% 80%, 81% 48%, 100% 20%, 80% 0%, 48% 18%);
+    background-color: #F694C1;
+}
+
+.shape-2 {
+    clip-path: circle(50% at 50% 50%);
+    background-color: #FFE74C;
+}
+
+.shape-3 {
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    background-color: #FF5964;
+}
+
+.shape-4 {
+    clip-path: polygon(51% 6%, 0 75%, 100% 71%);
+    background-color: #6BF178;
+}
+
+.shape-5 {
+    clip-path: polygon(9% 7%, 78% 18%, 93% 93%, 11% 93%);
+    background-color: #1C448E;
+}
+
+#header {
+    .shape {
+        display: block;
+    }
+
+    .shape-1 {
+        top: 15%;
+        left: 3%;
+        transform: scale(700%);
+    }
+
+    .shape-3 {
+        right: 10%;
+        bottom: -6%;
+        transform: scale(500%);
+    }
+
+    .shape-4 {
+        left: 55%;
+        top: 50%;
+        transform: scale(500%);
+    }
+}
