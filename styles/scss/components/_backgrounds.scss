@@ -43,26 +43,48 @@
     background-color: #1C448E;
 }
 
-#header {
-    .shape {
-        display: block;
-    }
-
+#div_Header {
     .shape-1 {
         top: 15%;
         left: 3%;
         transform: scale(700%);
+        display: block;
     }
 
     .shape-3 {
         right: 10%;
         bottom: -6%;
         transform: scale(500%);
+        display: block;
     }
 
     .shape-4 {
         left: 55%;
         top: 50%;
         transform: scale(500%);
+        display: block;
+    }
+}
+
+#div_GetInTouch {
+    .shape-2 {
+        display: block;
+        right: 10%;
+        top: 10%;
+        transform: scale(600%);
+    }
+
+    .shape-4 {
+        left: 6%;
+        top: 8%;
+        transform: scale(600%) rotate(90deg);
+        display: block;
+    }
+
+    .shape-1 {
+        display: block;
+        right: 20%;
+        top: 50%;
+        transform: scale(700%);
     }
 }
